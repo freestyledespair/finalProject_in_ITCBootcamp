@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
+
+.header {
+    text-align: center;
+    color: rgb(8, 8, 8);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #e8e7e7;
+}
+
+.h1 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Sigmar', cursive;
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}

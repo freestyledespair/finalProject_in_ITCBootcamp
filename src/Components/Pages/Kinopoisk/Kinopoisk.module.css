@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 86, 177);
+    min-height: 1000px;
+}
+
+.film {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #ff0d00, #1bbbe3, #57ff3a, #cc3ce9);
+    animation: gradient 5s ease infinite alternate;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.film img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.film h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.film p {
+    margin-bottom: 10px;
+}
+
+.film a {
+    color: #0077ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.film a:hover {
+    text-decoration: underline;
+}
+
+.inpBut {
+    text-align: center;
+    margin-bottom: 20px;
+}

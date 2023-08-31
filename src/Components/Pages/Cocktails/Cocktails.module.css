@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    background: linear-gradient(to bottom right, #ff0d00, #1bbbe3, #57ff3a, #cc3ce9);
+    animation: gradient 5s ease infinite alternate;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes gradient {
+    from {
+        background-position: left;
+    }
+
+    to {
+        background-position: right;
+    }
+}
+
+form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+input {
+    height: 2.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+button {
+    height: 2.5rem;
+    margin-left: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+select {
+    height: 2.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+.cocktail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+img {
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
