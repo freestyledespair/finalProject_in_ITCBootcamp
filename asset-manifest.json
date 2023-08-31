@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/finalProject_in_ITCBootcamp/static/css/main.3ffc7e67.css",
+    "main.js": "/finalProject_in_ITCBootcamp/static/js/main.1fd92591.js",
+    "index.html": "/finalProject_in_ITCBootcamp/index.html",
+    "main.3ffc7e67.css.map": "/finalProject_in_ITCBootcamp/static/css/main.3ffc7e67.css.map",
+    "main.1fd92591.js.map": "/finalProject_in_ITCBootcamp/static/js/main.1fd92591.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ffc7e67.css",
+    "static/js/main.1fd92591.js"
+  ]
+}
